@@ -1,7 +1,7 @@
 {
   "name": "atom-processing",
   "main": "./lib/atom-processing",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Run processing sketches form atom",
   "activationCommands": {
     "atom-workspace": "processing:run"
@@ -9,7 +9,7 @@
   "repository": "https://github.com/verytired/atom-processing",
   "license": "MIT",
   "engines": {
-    "atom": ">=0.174.0 <2.0.0"
+    "atom": ">0.50.0"
   },
   "dependencies": {}
 }

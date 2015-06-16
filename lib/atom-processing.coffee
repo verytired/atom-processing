@@ -35,7 +35,7 @@ module.exports = AtomProcessing =
       @modalPanel.show()
 
   runSketch: ->
-    editor = atom.workspace.getActiveEditor()
+    editor = atom.workspace.getActiveTextEditor()
     file   = editor.getPath()
     arr    = file.split "/"
     path   = arr[0..arr.length-2].join "/"
