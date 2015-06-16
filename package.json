@@ -1,7 +1,7 @@
 {
   "name": "atom-processing",
   "main": "./lib/atom-processing",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Run processing sketches form atom",
   "activationCommands": {
     "atom-workspace": "processing:run"
