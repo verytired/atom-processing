@@ -39,7 +39,7 @@ module.exports = AtomProcessing =
     file   = editor.getPath()
     arr    = file.split "/"
     path   = arr[0..arr.length-2].join "/"
-    command = "processing-java --sketch=#{path} --output=#{path}/build --run --force"
+    command = "processing-java --sketch=#{path} --output=#{path}/build --force --run"
 
     child_process.exec(command, (error, stdout, stderr) ->
         if error
